@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .subtext {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  
+  .subtext a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  label {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    text-align: left;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc; /* Light gray border for visibility */
+    border-radius: 4px;
+    background-color: #ffffff; /* Ensure input background is white */
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: #000000; /* Add a black border on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle shadow on focus */
+  }
+  
+  .submit-btn {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #333333;
+  }
+  

@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0f3460;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons button {
+    background-color: #e94560;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.roadmaps {
+    padding: 20px;
+}
+
+.roadmaps h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.roadmap-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.roadmap-item {
+    background-color: #16213e;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1em;
+}
+
+.roadmap-item .new {
+    background-color: #e94560;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.skill-roadmap-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.skill-roadmap-item {
+    background-color: #16213e;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1em;
+}
+
+.skill-roadmap-item .new {
+    background-color: #e94560;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.project-ideas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.project-ideas {
+    background-color: #16213e;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1em;
+}
+
+.project-ideas .new {
+    background-color: #e94560;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.questions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.questions {
+    background-color: #e94560;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1em;
+}
+
+.questions {
+    background-color: #e94560;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.create-roadmap {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #e94560;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
